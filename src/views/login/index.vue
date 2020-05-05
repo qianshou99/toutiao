@@ -22,10 +22,10 @@
        -->
     <el-form class="login-form" ref="login-form" :model="user" :rules="formRules">
       <el-form-item prop="mobile">
-        <el-input placeholder="请输入手机号" v-model="user.mobile"></el-input>
+        <el-input placeholder="请输入手机号111" v-model="user.mobile"></el-input>
       </el-form-item>
       <el-form-item prop="code">
-        <el-input placeholder="请输入验证码" v-model="user.code"></el-input>
+        <el-input placeholder="请输入验证码111" v-model="user.code"></el-input>
       </el-form-item>
        <el-form-item prop="agree">
         <el-checkbox v-model="user.agree">我已阅读并同意用户协议和隐私条款</el-checkbox>
